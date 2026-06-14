@@ -1,0 +1,45 @@
+body {
+  background-color: #1a1a2e; /* dark navy */
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.head {
+  color: lch(18.73% 60.7 301.19);
+}
+
+
+#bglime {
+  background-color: lime;
+  padding: 0.3rem 0.6rem;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+#para {
+  color: green;
+}
+
+ul li strong {
+  color: #f4c430;        /* golden yellow */
+  font-weight: bold;
+  background-color: #333;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+ol li a {
+  color: #00bfff;        /* deep sky blue */
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+ul, ol {
+  color: white;
+  margin-top: 1.5rem;
+  line-height: 2;
+}

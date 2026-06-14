@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Specificity Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="head">Heading 1 — Styled by class .head (dark blue)</h1>
+
+  <h2 class="head" id="bglime" style="color: red;">
+    Heading 2 — <span>head</span> (red, inline beats id beats class)
+  </h2>
+
+  <h3 class="head">Heading 3 — Styled by class .head (dark blue)</h3>
+
+  <p>Paragraph 1 — white text via p tag selector</p>
+
+  <p id="para">
+    <span style="color: black; font-size: 1.5rem;">paragraph</span>
+    — 2nd paragraph: id #para gives green, inline overrides span text to black
+  </p>
+
+  <p>Paragraph 3 — white text via p tag selector</p>
+
+  <ul>
+    <li>Click <strong>here</strong> to visit the website</li>
+    <li>Download <strong>here</strong> to get the file</li>
+    <li>Normal list item</li>
+  </ul>
+
+  <ol>
+    <li>Step 1 — go <a href="#">here</a> to register</li>
+    <li>Step 2 — check <a href="#">here</a> for details</li>
+    <li>Normal list item</li>
+  </ol>
+
+</body>
+</html>
