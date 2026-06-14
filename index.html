@@ -10,8 +10,8 @@
 
   <h1 class="head">Heading 1 — Styled by class .head (dark blue)</h1>
 
-  <h2 class="head" id="bglime" style="color: red;">
-    Heading 2 — <span>head</span> (red, inline beats id beats class)
+  <h2 class="head" id="bglime">
+    Heading 2 — <span class="head-text">head</span> (red via CSS class selector)
   </h2>
 
   <h3 class="head">Heading 3 — Styled by class .head (dark blue)</h3>
@@ -19,12 +19,12 @@
   <p>Paragraph 1 — white text via p tag selector</p>
 
   <p id="para">
-    <span style="color: black; font-size: 1.5rem;">paragraph</span>
-    — 2nd paragraph: id #para gives green, inline overrides span text to black
+    <span class="para-text">paragraph</span>
+    — 2nd paragraph: green via #para, span text overridden via CSS class
   </p>
 
   <p>Paragraph 3 — white text via p tag selector</p>
-
+  <button id="btn">Button — green background via #btn</button>
   <ul>
     <li>Click <strong>here</strong> to visit the website</li>
     <li>Download <strong>here</strong> to get the file</li>
